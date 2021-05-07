@@ -1,0 +1,27 @@
+﻿@page "/"
+@using BlazorAnimate
+
+<div>
+
+    <Animate Animation="Animations.FadeIn" Duration="TimeSpan.FromSeconds(0.5)" Delay="TimeSpan.FromSeconds(1)">
+
+        <h1 class="my-5">Welcome to my Webpage</h1>
+    </Animate>
+    <Animate Animation="Animations.FadeIn" Duration="TimeSpan.FromSeconds(1)" Delay="TimeSpan.FromSeconds(1.5)">
+
+        <text >
+            Right now i am working on this page.
+            Please have patience
+            <br />
+            <br />
+            Many greetings
+            <br />
+        </text>
+    </Animate>
+    <Animate Animation="Animations.FadeIn" Duration="TimeSpan.FromSeconds(1.5)" Delay="TimeSpan.FromSeconds(2)">
+        <text class="mt-5 font-italic" style="font-size:20px">
+            Dennis Ostertag
+        </text>
+    </Animate>
+</div>
+
